@@ -12,7 +12,7 @@ nc -nlvp 4444
 
 3. '***4444***': This is a number, and it's like the address or port where the messenger (netcat) will be waiting to talk. It's like saying, "I'll be sitting by the door with the number 4444 so you can find me."
 
-So, if we put it all together:
+## So, if we put it all together:
 
 The command '***nc -nlvp 4444***' is like saying, "Hey netcat, sit by the door and listen on port 4444. If anyone comes by and talks to you, tell me all the details about the conversation."
 

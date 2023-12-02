@@ -1,5 +1,6 @@
 # Fast Scan
 ```
+# Perform a fast scan on IP addresses listed in the 'scope' file and save the results to 'fast_scan'
 sudo nmap -iL scope -F | tee fast_scan
 ```
 

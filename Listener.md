@@ -10,7 +10,7 @@ nc -nlvp 1234
    2. '***-l***': This option means "listen". It's like saying, "I'm going to sit here and wait for someone to talk to me."
    3. '***-v***': This option means "verbose." It's like saying, "Tell me more details about what's happening."
 
-3. '***1234***': This is a number, and it's like the address or port where the messenger (netcat) will be waiting to talk. It's like saying, "I'll be sitting by the door with the number 4444 so you can find me."
+3. '***1234***': This is a number, and it's like the address or port where the messenger (netcat) will be waiting to talk. It's like saying, "I'll be sitting by the door with the number 1234 so you can find me."
 
 ## So, if we put it all together:
 

@@ -2,7 +2,7 @@
 
 ## Introduction:
 `grep` is a powerful command-line tool used for searching text patterns within files. In this guide, we'll explore a specific use case: searching for lines containing password-related patterns in a text file. The command we'll be using is:
-```
+```shell
 grep -i "pwd\|passw" file.txt
 ```
 This command is designed to search for lines in the specified `file.txt` that contain either "pwd" or "passw", regardless of letter case.
@@ -22,7 +22,7 @@ This command is designed to search for lines in the specified `file.txt` that co
    1. Use the `cd` command to navigate to the directory containing the `file.txt` or provide the full path to the file.
 3. Run the `grep` Command:
    1. Enter the `grep` command in the terminal:
-```
+```shell
 grep -i "pwd\|passw" file.txt
 ```
 4. Interpret the Results:
@@ -30,13 +30,13 @@ grep -i "pwd\|passw" file.txt
 
 Example:
 Suppose `file.txt` contains the following lines:
-```
+```shell
 user: john, password: pass123
 admin: admin1, pwd: securepass
 guest1, password: p@ssw0rd
 ```
 The `grep` command will output:
-```
+```shell
 user: john, password: pass123
 admin: admin1, pwd: securepass
 guest1, password: p@ssw0rd
@@ -44,7 +44,7 @@ guest1, password: p@ssw0rd
 
 ## Improvement:
 
-```
+```shell
 grep -iE "pwd|passw" file.txt
 ```
 

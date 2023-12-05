@@ -1,7 +1,7 @@
 # SCREEN SESSION
 
 ## What is a Screen Session?
-```
+```bash
 screen -S main
 ```
 
@@ -18,7 +18,7 @@ Once inside the `screen` session, you can run commands and start processes. To d
 This command is especially useful for running long-term processes or tasks that you want to keep running even when your terminal connection is closed. The session name ("main" in this case) helps you identify and manage your `screen` sessions effectively.
 
 ## Screen -ls
-```
+```bash
 screen -ls
 ```
 
@@ -28,7 +28,7 @@ screen -ls
 
 1. The terminal will display a list of `screen` sessions, including their session names, status (whether attached or detached), and other details.
    Example output:
-   ```
+   ```bash
    There is a screen on:
            12345.main    (Detached)
    1 socket in /run/screen/S-your_username.
@@ -41,15 +41,15 @@ This command is helpful for checking the status and names of existing `screen` s
 ## Starting a Screen Session
 
 Using the mehodology of "check, change, check" we can start a `screen` session by:
-```
+```bash
 screen -ls
 ```
 This checks if any `screen` sessions are open. Now we can change or open a new `screen` session with:
-```
+```bash
 screen -S main
 ```
 Lastly, check the `screen` session to make sure it is working properly:
-```
+```bash
 screen -ls
 ```
 
